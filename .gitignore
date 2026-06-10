@@ -1,0 +1,58 @@
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Database
+spur-chat.db
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS junk
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing / stress scripts
+stress-test.js
+stress-test.mjs
+
+# Temporary test endpoints (remove before submission)
+src/routes/api/test-db/
+src/routes/api/test-llm/
+
+# TypeScript
+*.tsbuildinfo
+
+# Render disk mount (local only)
+data/
